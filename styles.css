@@ -6,16 +6,13 @@ body {
     background-color:white;
     text-align:center;
     font-size:64px;
+    border: 2px solid blue;
+    border-radius: 10px;
 }
 
 .Navigationbar {
     background-color:white;
     text-align:center;
     font-size:34px;
-}
-
-
-/*Sets the styles for IMAGES in the gameicons div */
-.gameicons img {
-    width:29%;
+    
 }
