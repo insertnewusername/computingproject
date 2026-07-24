@@ -14,4 +14,8 @@ body {
     font-size:34px;
 }
 
-img 
+
+/*Sets the styles for IMAGES in the gameicons div */
+.gameicons img {
+    width:29%;
+}
