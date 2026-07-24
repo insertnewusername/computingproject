@@ -1,4 +1,4 @@
 function toggletheme() {
-    var element = document.getelementByID("body");
+    var element = document.getElementById("body");
     element.classList.toggle("bodydark");
 }
