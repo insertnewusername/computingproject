@@ -5,14 +5,45 @@ body {
 .Webtitle {
     background-color:white;
     text-align:center;
-    font-size:64px;
-    border: 2px solid blue;
+    font-size:54px;
+    border: 5px solid blue;
     border-radius: 10px;
+    padding: 10px; /* spacing between other stuff */
 }
 
 .Navigationbar {
     background-color:white;
     text-align:center;
     font-size:34px;
-    
+    border:3px solid blue; /*what do u want me to do   uhh idk tbh check what good landing pages have    kk   */
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px; 
+    display: flex;
+    justify-content: space-around; /* spaces everything evenly cuz flex */
+}
+
+.Navigationbar a:hover { /* the css on hover */
+    border-radius:10px;
+    background-color:skyblue;
+}
+
+
+
+
+/*-------- Matthew check if u can see what i did yeah but it's kinda like uhhh dot points oh alr should i change it
+---------------*/
+.gameicons img { 
+    width:29%;
+    border: 5px solid blue;
+    border-radius: 10px;
+    margin: 5px; /*spacing between the images*/
+}
+
+.mainstuff {
+    color:white;
+    border-radius: 10px;
+    padding: 0 10px; /* 0 padding for top and bottom, 10px padding for left and right */
+    background-image: url(images/securityspace.png);
+    background-repeat: no-repeat;
 }
