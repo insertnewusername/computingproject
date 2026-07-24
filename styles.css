@@ -7,22 +7,19 @@ body {
     background-color:#70b8dc;
     border:3px solid #1a7cad;
     border-radius: 10px;
+    padding: 10px; /* spacing between other stuff */
 }
 
 .Webtitle {
-    background-color:#70b8dc;
     text-align:center;
-    font-size:54px;
-    border: 5px solid #1a7cad;
-    border-radius: 10px;
-    padding: 10px; /* spacing between other stuff */
+    font-size:50px;
+    border-width: 5px; /* Overrides the .normalcontainer border width*/
 }
 /* Navigation bar css */
 
 
 .Navigationbar {
     text-align:center;
-    font-size:34px;
     margin: 10px;
     font-size: 20px; 
     display: flex;
@@ -43,6 +40,7 @@ body {
 
 .ourgames {
     text-align:center;
+    padding: 0;
 }
 
 
@@ -55,10 +53,8 @@ body {
 
 .gameitem {
     display: inline-block;
-    margin: 10px;
     width: 30%; /* Each gameitem takes up 30% of 100% */
     margin: 5px;
-    padding: 10px;
     box-sizing: border-box;
 }
 
@@ -92,7 +88,6 @@ body {
 
 .sitemap {
     text-align: center;
-    padding: 20px;
     margin: 10px;
     color: white;
 }
