@@ -28,7 +28,11 @@ body {
 
 /* Padding for navbar ahrefs */
 .Navigationbar a {
-    padding: 0 10px;
+    color:black;
+    text-decoration:none;
+    font-weight: bold; 
+    border-radius:10px;
+    padding:0 5%; /* 0 padding for top and bottom, 5% padding for left and right */
 }
 
 .Navigationbar a:hover { /* the css on hover */
