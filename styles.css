@@ -1,20 +1,21 @@
 body {
     background-color: #afc4e4;
-    color:black;
+    color: white;
 }
 
 .normalcontainer {
-    background-color:#70b8dc;
-    border:3px solid #1a7cad;
+    background-color: #102f46;
+    border: 3px solid #00bfff;
     border-radius: 10px;
     padding: 10px; /* spacing between other stuff */
 }
 
 .Webtitle {
-    background-color:#4694bb;
     text-align:center;
     font-size:50px;
     border-width: 5px; /* Overrides the .normalcontainer border width*/
+    font-family: 'Rajdhani', sans-serif; 
+    color: white;
 }
 /* Navigation bar css */
 
@@ -26,11 +27,12 @@ body {
     font-size: 20px; 
     display: flex;
     justify-content: space-around; /* spaces everything evenly cuz flex */
+    font-family: 'Rajdhani', sans-serif;
 }
 
 /* Padding for navbar ahrefs */
 .Navigationbar a {
-    color:black;
+    color: white;
     text-decoration:none;
     font-weight: bold; 
     border-radius:10px;
@@ -39,7 +41,8 @@ body {
 
 .Navigationbar a:hover { /* the css on hover */
     border-radius:10px;
-    background-color:skyblue;
+    background-color: #00bfff;
+    color: #081b29;
 }
 
 
@@ -51,7 +54,7 @@ body {
 
 
 .gameicons {
-    background-color:rgb(167, 213, 253);
+    background-color: #081b29;
     width: 100%;
     text-align: center;
 }
@@ -66,7 +69,7 @@ body {
 /* Css applies only for images in gameitem div */
 .gameitem img { 
     width:80%;
-    border: 5px solid blue;
+    border: 5px solid #00bfff;
     border-radius: 10px;
     margin: 5px; /*spacing between the images*/
 }
@@ -79,6 +82,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     margin: 10px;
+    font-family: 'Rajdhani', sans-serif; 
 }
 
 
@@ -113,6 +117,10 @@ body {
 .sitemap-links a:hover { 
     background-color: skyblue;
     border-radius: 10px;
+}
+
+h1, h2 {
+    font-family: 'Rajdhani', sans-serif;
 }
 
  
