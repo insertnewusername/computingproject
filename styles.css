@@ -1,26 +1,33 @@
 body {
-    background-color:skyblue;
+    background-color: #afc4e4;
 }
 
 .Webtitle {
-    background-color:white;
+    background-color:#70b8dc;
     text-align:center;
     font-size:54px;
-    border: 5px solid blue;
+    border: 5px solid #1a7cad;
     border-radius: 10px;
     padding: 10px; /* spacing between other stuff */
 }
+/* Navigation bar css */
+
 
 .Navigationbar {
-    background-color:white;
+    background-color:#70b8dc;
     text-align:center;
     font-size:34px;
-    border:3px solid blue; /*what do u want me to do   uhh idk tbh check what good landing pages have    kk   */
+    border:3px solid #1a7cad;
     border-radius: 10px;
     margin: 10px;
     font-size: 20px; 
     display: flex;
     justify-content: space-around; /* spaces everything evenly cuz flex */
+}
+
+/* Padding for navbar ahrefs */
+.Navigationbar a {
+    padding: 0 10px;
 }
 
 .Navigationbar a:hover { /* the css on hover */
@@ -30,15 +37,41 @@ body {
 
 
 
+.ourgames {
+    background-color:#70b8dc;
+    text-align:center;
+    border:3px solid #1a7cad;
+    border-radius:10px;
+}
 
-/*-------- Matthew check if u can see what i did yeah but it's kinda like uhhh dot points oh alr should i change it
+
+
+/*--------  Matthew can u try now and see if nything changed
 ---------------*/
-.gameicons img { 
-    width:29%;
+
+
+.gameicons {
+    background-color:aliceblue;
+    width: 100%;
+    text-align: center;
+}
+
+.gameitem {
+    display: inline-block;
+    margin: 10px;
+    width: 30%; /* Each gameitem takes up 30% of 100% */
+    margin: 5px;
+}
+
+/* Css applies only for images in gameitem div */
+.gameitem img { 
+    width:80%;
     border: 5px solid blue;
     border-radius: 10px;
     margin: 5px; /*spacing between the images*/
 }
+
+
 
 .mainstuff {
     color:white;
@@ -47,3 +80,37 @@ body {
     background-image: url(images/securityspace.png);
     background-repeat: no-repeat;
 }
+
+.sitemap {
+    background-color: #70b8dc;
+    text-align: center;
+    border: 3px solid #1a7cad;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.sitemap h2 { 
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.sitemap-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.sitemap-links a:hover { 
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+ 
+    
+
+
