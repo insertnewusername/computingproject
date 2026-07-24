@@ -11,6 +11,7 @@ body {
 }
 
 .Webtitle {
+    background-color:#4694bb;
     text-align:center;
     font-size:50px;
     border-width: 5px; /* Overrides the .normalcontainer border width*/
@@ -19,6 +20,7 @@ body {
 
 
 .Navigationbar {
+    background-color:#4694bb;
     text-align:center;
     margin: 10px;
     font-size: 20px; 
@@ -44,7 +46,6 @@ body {
 
 .ourgames {
     text-align:center;
-    padding: 0;
 }
 
 
