@@ -1,18 +1,25 @@
-/* Light mode theme */
+/* Light mode theme :root means that it's the default */
 :root {
     --body-bg-color:#afc4e4;
     --container-bg-color:#70b8dc;
     --container-border-color:#1a7cad;
+    --topbar-bg-color:#4694bb;
 }
 
+/*Colour theme for when toggled on dark mode, will use these variables*/
+.dark {
+    --body-bg-color:#afc4e4
 
 
+
+}
 
 body {
     background-color: var(--body-bg-color);
     color: black;
     font-family: 'Rajdhani', sans-serif; /*Applies the font to everything*/
 }
+
 
 .normalcontainer {
     background-color: var(--container-bg-color);
@@ -21,36 +28,21 @@ body {
     padding: 10px; /* spacing between other stuff */
 }
 
-.normalcontainerdark {
-
-    background-color: #102f46;
-    border: 3px solid #00bfff;
-    border-radius: 10px;
-    padding: 10px;
-}
 
 .Webtitle {
-    background-color:#4694bb;
+    background-color:var(--topbar-bg-color);
     text-align:center;
     font-size:50px;
     border-width: 5px; /* Overrides the .normalcontainer border width*/
     font-weight:bold;
 }
 
-.Webtitledark {
-    text-align:center;
-    font-size:50px;
-    border-width: 5px; /* Overrides the .normalcontainer border width*/
-    color: white; 
-}
-
-
 
 /* Navigation bar css */
 
 
 .Navigationbar {
-    background-color:#4694bb;
+    background-color:var(--topbar-bg-color);
     text-align:center;
     margin: 10px;
     font-size: 20px; 
@@ -104,13 +96,13 @@ body {
 /* Css applies only for images in gameitem div */
 .gameitem img { 
     width:80%;
-    border: 5px solid #00bfff;
+    border: 5px solid var(--container-border-color);
     border-radius: 10px;
     margin: 5px; /*spacing between the images*/
 }
 
 .gameitem p {
-    border: 2px solid #1a7cad;
+    border: 2px solid var(--container-border-color);
     border-radius: 20px;
     padding: 8px;
     font-size: 18px;
@@ -153,169 +145,9 @@ body {
     border-radius: 10px;
 }
 
-footer { background-color: #4694bb;
+footer { background-color: var(--topbar-bg-color);
     text-align: center;
     padding: 10px;
     color: white;
 }
- 
-    
-
-
-body {
-    background-color: #afc4e4;
-    color: black;
-    font-family: 'Rajdhani', sans-serif; /*Applies the font to everything*/
-}
-
-.bodydark {
-    background-color: #4886e4;
-    color: white;
-}
-
-.normalcontainer {
-    background-color: #70b8dc;
-    border: 3px solid #1a7cad;
-    border-radius: 10px;
-    padding: 10px; /* spacing between other stuff */
-}
-.normalcontainerdark {
-
-    background-color: #102f46;
-    border: 3px solid #00bfff;
-    border-radius: 15px;
-    padding: 10px;
-    box-shadow: 0 0 8px #00bfff;
-}
-
-.Webtitle {
-    background-color:#4694bb;
-    text-align:center;
-    font-size:50px;
-    border-width: 5px; /* Overrides the .normalcontainer border width*/
-    font-weight:bold;
-}
-
-.Webtitledark {
-    text-align:center;
-    font-size:50px;
-    border-width: 5px; /* Overrides the .normalcontainer border width*/
-    color: white; 
-    background-color:#102f46;
-}
-
-
-
-/* Navigation bar css */
-
-
-.Navigationbar {
-    background-color:#4694bb;
-    text-align:center;
-    margin: 10px;
-    font-size: 20px; 
-    display: flex;
-    justify-content: space-around; /* spaces everything evenly cuz flex */
-}
-
-/* Padding for navbar ahrefs */
-.Navigationbar a {
-    color:black;
-    text-decoration:none;
-    font-weight: bold; 
-    border-radius:10px;
-    padding:0 5%; /* 0 padding for top and bottom, 5% padding for left and right */
-}
-
-.Navigationbar a:hover { /* the css on hover */
-    border-radius:10px;
-    background-color: #00bfff;
-    color: #081b29;
-}
-
-
-
-.ourgames {
-    text-align:center;
-}
-
-.ourgamesdark {
-    background-color:#102f46
-}
-
-
-.gameicons {
-    background-color:rgb(167, 213, 253);
-    width: 100%;
-    text-align: center;
-}
-
-.gameiconsdark {
-    background-color: #081b29;
-    width: 100%;
-    text-align: center;
-}
-
-
-.gameitem {
-    display: inline-block;
-    width: 30%; /* Each gameitem takes up 30% of 100% */
-    margin: 5px;
-    box-sizing: border-box;
-}
-
-/* Css applies only for images in gameitem div */
-.gameitem img { 
-    width:80%;
-    border: 5px solid #00bfff;
-    border-radius: 10px;
-    margin: 5px; /*spacing between the images*/
-}
-
-.gameitem p {
-    border: 2px solid #1a7cad;
-    border-radius: 20px;
-    padding: 8px;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px;
-}
-
-
-
-.mainstuff {
-    color:white;
-    border-radius: 10px;
-    padding: 0 10px; /* 0 padding for top and bottom, 10px padding for left and right */
-    background-image: url(images/securityspace.png);
-    background-repeat: no-repeat;
-}
-
-.sitemap {
-    text-align: center;
-    margin: 10px;
-    color: white;
-}
-
-.sitemap h2 { 
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-
-.sitemap-links a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    margin: 10px;
-}
-
-.sitemap-links a:hover { 
-    background-color: skyblue;
-    border-radius: 10px;
-}
-
- 
-    
-
 
