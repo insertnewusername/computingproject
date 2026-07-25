@@ -33,11 +33,47 @@ body {
 
 .Webtitle {
     background-color:var(--topbar-bg-color);
-    text-align:center;
     font-size:50px;
     border-width: 5px; /* Overrides the .normalcontainer border width*/
     font-weight:bold;
+    justify-content:center;
+    display:flex; /* can arrange both title and icon flexibly */
 }
+
+/* Change theme sun/moon button css */
+
+.switch {
+    position: absolute; /* allows for it to be flexibly positioned through code below */
+    top: 4%;
+    right: 30px;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide the original checkbox */
+.switch input {
+   display: none;
+}
+
+#toggleicon,
+#sunicon {
+    width: 50px;
+    height: 50px;
+}
+
+#sunicon {
+    display: none; /* Hide the sun icon by default */
+}
+
+.switch input:checked ~ #toggleicon {
+    display: none; /* Hide the moon icon when checked */
+}
+
+.switch input:checked ~ #sunicon {
+    display: block; /* Show the sun icon when checked */
+}
+
+
 
 
 /* Navigation bar css */
@@ -94,6 +130,11 @@ body {
     width: 30%; /* Each gameitem takes up 30% of 100% */
     margin: 5px;
     box-sizing: border-box;
+    transition: transform 0.3s; 
+}
+
+.gameitem:hover {
+    transform: scale(1.05); /* Slightly enlarge the game item on hover */
 }
 
 /* Css applies only for images in gameitem div */
@@ -114,38 +155,7 @@ body {
     color:var(--text-color);
 }
 
-
-
-.switch {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 60px;
-    height: 34px;
-}
-
-/* Hide the original checkbox */
-.switch input {
-   display: none;
-}
-
-#toggleicon,
-#sunicon {
-    width: 50px;
-    height: 50px;
-}
-
-#sunicon {
-    display: none; /* Hide the sun icon by default */
-}
-
-.switch input:checked ~ #toggleicon {
-    display: none; /* Hide the moon icon when checked */
-}
-
-.switch input:checked ~ #sunicon {
-    display: block; /* Show the sun icon when checked */
-}
+ 
 
 .mainstuff {
     color:white;
