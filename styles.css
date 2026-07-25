@@ -10,12 +10,12 @@
 
 /*Colour theme for when toggled on dark mode, will use these variables*/
 [data-theme="dark"] {
-    --body-bg-color:#bfc4e4;
+    --body-bg-color:#081b29;
     --container-bg-color:#102f46;
     --container-border-color:#00bfff;
     --topbar-bg-color:#367594;
     --text-color:#ffffff;
-    --gameicons-bg-color:#081b29;
+    --gameicons-bg-color:#0d1b2e;
 }
 
 body {
@@ -185,29 +185,33 @@ body {
     margin: 5px;
     box-sizing: border-box;
     transition: transform 0.3s; 
+    vertical-align: top; 
 }
 
 .gameitem:hover {
-    transform: translateY(-8px); /* Slightly enlarge the game item on hover */
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    transform: translateY(-8px); /* Makes card translate up on hover */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Gives the card a shadow */
 }
 
 /* Css applies only for images in gameitem div */
 .gameitem img { 
-    width:80%;
+    width:90%;
     border: 5px solid var(--container-border-color);
     border-radius: 10px;
     margin: 5px; /*spacing between the images*/
+    height: 200px;
+    object-fit: cover;
 }
 
 .gameitem p {
     border: 2px solid var(--container-border-color);
     border-radius: 20px;
     padding: 8px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin: 10px;
     color:var(--text-color);
+    line-height: 1
 }
 
  
