@@ -1,24 +1,6 @@
-function toggletheme() {
 
-    var element = document.body;
-    element.classList.toggle("bodydark");
+var body = document.body;  /* Targets document body */
+document.getElementById('toggler').addEventListener('change', (event) => {
+  event.target.checked ? body.setAttribute('data-theme', 'dark') /* If checked, set datatheme to dark */ : body.removeAttribute('data-theme'); /* if unchecked, remove dark datatheme (changes to light default) */
+});
 
-    /* var element = document.getElementById("body");
-    element.classList.toggle("bodydark"); */
-
-    var element = document.getElementsByClassName("normalcontainer");
-    element.classList.toggle("normalcontainerdark");
-
-    var element = document.getElementById("featuredprojects");
-    element.classList.toggle("ourgamesdark");
-
-    /* Selects and toggles all normalcontainer divs 
-    var items = document.querySelectorAll(".normalcontainer");
-
-    for (var i = 0; i < items.length; i++) {
-     items[i].classList.toggle("normalcontainerdark");
-    }
-     */
-
-
-}
