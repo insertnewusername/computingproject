@@ -114,6 +114,49 @@ body {
     color:var(--text-color);
 }
 
+/* The toggle button css */
+.switch {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide the original checkbox */
+.switch input {
+   display: none;
+}
+
+/* The background of the toggle button */
+.slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    border-radius: 34px;
+}
+
+/* The circle inside the toggle button*/
+.circle {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    left: 4px; /* Position the circle inside the slider (left side) */
+    top: 4px;
+}
+
+/* Changes slider colour */
+input:checked + .slider {
+    background-color: navy; /* Change the background color when checked */
+}
+
+input:checked + .slider .circle {
+    left : 30px; /* MOve the circle to the right side when checked */
+}
+
 
 
 .mainstuff {
