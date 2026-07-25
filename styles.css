@@ -103,18 +103,21 @@ body {
     font-weight: bold; 
     border-radius:10px;
     padding:0 5%; /* 0 padding for top and bottom, 5% padding for left and right */
+    transition: 0.3s;
 }
 
 .Navigationbar a:hover { /* the css on hover */
     border-radius:10px;
     background-color: #00bfff;
     color: white;
+    transform: translateY(-3px);
 
 }
 
 .aboutus {
     text-align: center;
     margin: 10px;
+    color:var(--text-color); /*Makes all the h2 and p text use the variable*/
 }
 
 .aboutus h2 {
@@ -142,20 +145,36 @@ body {
     border: 2px solid var(--container-border-color);
     border-radius: 10px;
     padding: 10px;
-    
 }
 
+.statcard h2, /* This way it applies to both h2 and p saving from having to apply each individually */
+.statcard p {
+    margin: 5px;
+}
 
+.statcard h2 {
+    font-size: 35px;
+}
+
+.statcard p {
+    font-size: 16px;
+}
 
 .ourgames {
     text-align:center;
     color:var(--text-color);
+    margin:10px;
+}
+
+.ourgames h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 
 
 .gameicons {
-    background-color:var(--gameicons-bg-color)
     width: 100%;
     text-align: center;
 }
@@ -169,7 +188,8 @@ body {
 }
 
 .gameitem:hover {
-    transform: scale(1.05); /* Slightly enlarge the game item on hover */
+    transform: translateY(-8px); /* Slightly enlarge the game item on hover */
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
 
 /* Css applies only for images in gameitem div */
