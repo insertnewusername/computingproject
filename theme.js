@@ -6,6 +6,6 @@ document.getElementById('toggler').addEventListener('change', (event) => {
 
 function toggled()
 {
-var eleement = document.getElementById("toggleicon")
+var element = document.getElementById("toggleicon")
 element.src = "images/Sun.svg"
 }
