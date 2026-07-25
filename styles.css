@@ -38,16 +38,21 @@ body {
     font-weight:bold;
     justify-content:center;
     display:flex; /* can arrange both title and icon flexibly */
+    position: relative;
 }
 
 /* Change theme sun/moon button css */
 
 .switch {
+    margin: 0;
     position: absolute; /* allows for it to be flexibly positioned through code below */
-    top: 4%;
     right: 30px;
     width: 60px;
-    height: 34px;
+    top: 20%; /* Moves it down */
+}
+
+.switch :hover {
+   
 }
 
 /* Hide the original checkbox */
@@ -101,7 +106,32 @@ body {
     border-radius:10px;
     background-color: #00bfff;
     color: white;
+
 }
+
+.aboutus {
+    text-align: center;
+    margin: 10px;
+}
+
+.aboutus h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.aboutus p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.statscontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 
