@@ -136,7 +136,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .skills {
@@ -167,7 +167,7 @@ body {
 
 .skillcard:hover {
     transform: translateY(-5px);
-    box-shadow: 0 2px 5px rgba(0,0,0.15);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
 
 .skillcard h3 {
@@ -212,6 +212,7 @@ body {
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 10px;
 }
 
 
@@ -219,6 +220,11 @@ body {
 .gameicons {
     width: 100%;
     text-align: center;
+}
+
+.gameicons > p {
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .gameitem {
@@ -283,11 +289,21 @@ body {
 .mainstuff {
     color:white;
     border-radius: 10px;
-    padding: 0 10px; /* 0 padding for top and bottom, 10px padding for left and right */
+    padding: 30px 10px; /* 30 padding for top and bottom, 10px padding for left and right */
     background-image: url(images/securityspace.png);
     background-repeat: no-repeat;
     border: 3px solid var(--container-border-color);
     text-align: center;
+    margin: 10px;
+}
+
+.mainstuff h1 {
+    margin-bottom: 5px;
+}
+
+.mainstuff p {
+    margin-top: 0;
+    font-size: 20px;
 }
 
 
@@ -334,7 +350,7 @@ body {
 
 footer { background-color: var(--topbar-bg-color);
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     color: white;
 }
 
