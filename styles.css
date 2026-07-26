@@ -325,6 +325,7 @@ body {
 
 .gameitem a:hover {
     transform: scale(1.05);
+    background-color:#00bfff;
 }
 
 
@@ -344,7 +345,7 @@ body {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 25px;
-    background-color: var(--container-border-color);
+    background-color: var(--topbar-bg-color);
     color: white;
     text-decoration: none;
     border-radius: 20px;
@@ -455,16 +456,14 @@ footer { background-color: var(--topbar-bg-color);
     color: var(--text-color);
 }
 
-.missioncard {
+.mission .normalcontainer {
     width: 30%;
     text-align: center;
     border: 2px solid var(--container-border-color);
-    border-radius : 10px;
-    padding : 20px;
     transition : 0.3s;
 }
 
-.missioncard:hover {
+.mission .normalcontainer:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
