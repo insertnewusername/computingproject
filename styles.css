@@ -322,3 +322,20 @@ footer { background-color: var(--topbar-bg-color);
     font-size: 22px;
 }
 
+.aboutdescription {
+    margin: 10px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.aboutdescription h2 {
+    font-size: 38px;
+}
+
+.aboutdescription p {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.75px;
+}
+
