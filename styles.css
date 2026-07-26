@@ -139,6 +139,48 @@ body {
     margin-top: 20px;
 }
 
+.skills {
+    text-align: center;
+    margin: 10px;
+    color: var(--text-color);
+}
+
+.skills h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.skillcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skillcard {
+    width: 28%;
+    border: 2px solid var(--container-border-color);
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.skillcard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 5px rgba(0,0,0.15);
+}
+
+.skillcard h3 {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.skillcard p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+}
+
 .statcard {
     width: 30%;
     text-align: center;
