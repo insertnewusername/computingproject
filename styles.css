@@ -52,6 +52,7 @@ body {
     width: 60px;
     top: 20%; /* Moves it down */
     transition: transform 0.3s; /* Gives transition time */
+    font-size: 20; /* Ensures that text, if deleted, is appropriately sized */
 }
 
 .switch:hover {
@@ -136,96 +137,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    margin-top: 25px;
-}
-
-.skills {
-    text-align: center;
-    margin: 10px;
-    color: var(--text-color);
-}
-
-.skills h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.skillcards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-.skillcard {
-    width: 28%;
-    border: 2px solid var(--container-border-color);
-    border-radius: 10px;
-    padding: 15px;
-    transition: 0.3s;
-}
-
-.skillcard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-}
-
-.skillcard h3 {
-    font-size: 40px;
-    margin: 5px;
-}
-
-.skillcard p {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 5px;
-}
-
-.whychoose {
-    text-align: center;
-    margin: 10px;
-    color: var(--text-color);
-}
-
-.whychoose h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.whycards {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.whycard {
-    width: 30%;
-    border: 2px solid var(--container-border-color);
-    border-radius: 10px;
-    padding: 15px;
-    transition: 0.3s;
-
-}
-
-.whycard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-
-}
-
-.whycard h3 {
-    font-size: 40px;
-    margin: 5px;
-}
-
-.whycard h4 {
-    font-size: 22px;
-    margin: 10px;
-}
-
-.whycard p {
-    font-size: 16px;
-    line-height: 1.5;
+    margin-top: 20px;
 }
 
 .statcard {
@@ -259,7 +171,6 @@ body {
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 10px;
 }
 
 
@@ -267,11 +178,6 @@ body {
 .gameicons {
     width: 100%;
     text-align: center;
-}
-
-.gameicons > p {
-    margin-bottom: 20px;
-    font-size: 18px;
 }
 
 .gameitem {
@@ -336,39 +242,13 @@ body {
 .mainstuff {
     color:white;
     border-radius: 10px;
-    padding: 30px 10px; /* 30 padding for top and bottom, 10px padding for left and right */
+    padding: 0 10px; /* 0 padding for top and bottom, 10px padding for left and right */
     background-image: url(images/securityspace.png);
     background-repeat: no-repeat;
     border: 3px solid var(--container-border-color);
     text-align: center;
-    margin: 10px;
 }
 
-.mainstuff h1 {
-    margin-bottom: 5px;
-}
-
-.mainstuff p {
-    margin-top: 0;
-    font-size: 20px;
-}
-
-.mainstuff a {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 25px;
-    background-color: var(--container-border-color);
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.mainstuff a:hover {
-    transform: scale(1.05);
-    background-color: #00bfff;
-}
 
 /*Css for individual games*/
 .owngamecontainer {
@@ -413,7 +293,7 @@ body {
 
 footer { background-color: var(--topbar-bg-color);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     color: white;
 }
 
