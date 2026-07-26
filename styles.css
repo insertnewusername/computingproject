@@ -181,6 +181,53 @@ body {
     margin: 5px;
 }
 
+.whychoose {
+    text-align: center;
+    margin: 10px;
+    color: var(--text-color);
+}
+
+.whychoose h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.whycards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.whycard {
+    width: 30%;
+    border: 2px solid var(--container-border-color);
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.3s;
+
+}
+
+.whycard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+.whycard h3 {
+    font-size: 40px;
+    margin: 5px;
+}
+
+.whycard h4 {
+    font-size: 22px;
+    margin: 10px;
+}
+
+.whycard p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 .statcard {
     width: 30%;
     text-align: center;
