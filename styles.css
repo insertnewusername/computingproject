@@ -353,6 +353,22 @@ body {
     font-size: 20px;
 }
 
+.mainstuff a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: var(--container-border-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.mainstuff a:hover {
+    transform: scale(1.05);
+    background-color: #00bfff;
+}
 
 /*Css for individual games*/
 .owngamecontainer {
