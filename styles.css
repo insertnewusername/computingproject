@@ -52,7 +52,7 @@ body {
     width: 60px;
     top: 20%; /* Moves it down */
     transition: transform 0.3s; /* Gives transition time */
-    font-size: 20; /* Ensures that text, if deleted, is appropriately sized */
+    font-size: 20px; /* Ensures that text, if deleted, is appropriately sized */
 }
 
 .switch:hover {
@@ -295,5 +295,30 @@ footer { background-color: var(--topbar-bg-color);
     text-align: center;
     padding: 10px;
     color: white;
+}
+
+
+
+
+
+
+/* About Us page css */
+
+.aboutbanner {
+    margin: 10px;
+    padding: 80px 20px; /* 80px padding for top and bottom, 20px padding for left and right */
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid var(--container-border-color);
+}
+
+.aboutbanner h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.aboutbanner p {
+    font-size: 22px;
 }
 
