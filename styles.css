@@ -412,11 +412,6 @@ footer { background-color: var(--topbar-bg-color);
     font-size: 55px;
     margin-bottom: 10px;
 }
-
-.aboutbanner p {
-    font-size: 22px;
-}
-
 .aboutdescription {
     margin: 10px;
     text-align: center;
