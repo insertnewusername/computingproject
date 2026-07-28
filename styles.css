@@ -64,44 +64,69 @@ body {
 /* Change theme sun/moon button css */
 
 .switch {
-    margin: 0;
-    position: absolute; /* allows for it to be flexibly positioned through code below */
+    position: absolute;
     right: 30px;
-    width: 60px;
-    top: 20%; /* Moves it down */
-    transition: transform 0.3s; /* Gives transition time */
-    font-size: 20px; /* Ensures that text, if deleted, is appropriately sized */
+    top: 20%;
 }
 
-.switch:hover {
-    transform: scale(1.1); /* Make 1.1 bigger than originally */
+.switch input { 
+    display:none; /* Hides the checkbox */
 }
 
-/* Hide the original checkbox */
-.switch input {
-   display: none;
+.slider {
+    position: relative;
+    width: 70px;
+    height : 36px;
+    background-color: 8e8e93;
+    border-radius: 50px;
+    transition: 0.3s;
 }
 
-#toggleicon,
-#sunicon {
-    width: 50px;
-    height: 50px;
+.knob {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-#sunicon {
-    display: none; /* Hide the sun icon by default */
+#toggleicon, #sunicon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
 }
 
-.switch input:checked ~ #toggleicon {
-    display: none; /* Hide the moon icon when checked */
+#toggleicon {
+    display: none; /* Hide the moon icon by default */
 }
 
-.switch input:checked ~ #sunicon {
-    display: block; /* Show the sun icon when checked */
+/* Checked State */
+.switch input:checked + .slider {
+    background-color: #00bfff;
 }
 
+.switch input:checked + .slider .knob {
+    transform: translateX(34px);
+}
 
+.switch input:checked + .slider #sunicon {
+    display: none;
+}
 
+.switch input:checked + .slider #toggleicon {
+    display: block;
+}
+
+.switch:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
 
 /* Navigation bar css */
 
