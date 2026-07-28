@@ -567,22 +567,23 @@ footer { background-color: var(--topbar-bg-color);
 .featurecard {
     display: flex;
     align-items: center;
-    gap: 30px;
-    margin: 10px;
+    gap: 70px;
+    margin: 20px;
     color: var(--text-color);
-    padding: 20px;
+    padding: 50px;
     color: var(--text-color);
     transition: 0.3s;
+    min-height: 550px;
 }
 
 .featurecard:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2));
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 .featurecard img {
-    width: 220px;
-    height: 180px;
+    width: 600px;
+    height: 460px;
     object-fit: contain;
 }
 
@@ -591,13 +592,13 @@ footer { background-color: var(--topbar-bg-color);
 }
 
 .featuretext h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 38px;
+    margin-bottom: 15px;
 }
 
 .featuretext p {
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.7;
 }
 
 .prev, .next {
