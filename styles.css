@@ -25,6 +25,24 @@ body {
 }
 
 
+.normalp {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    color:var(--text-color)
+}
+
+.normalh2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:var(--text-color)
+}
+
+.normalh3 {
+    font-size: 28px;
+}
+
 .normalcontainer {
     background-color: var(--container-bg-color);
     border: 3px solid var(--container-border-color);
@@ -121,18 +139,6 @@ body {
     color:var(--text-color); /*Makes all the h2 and p text use the variable*/
 }
 
-.aboutus h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.aboutus p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin: 0 auto;
-}
-
 .aboutstats {
     display: flex;
     justify-content: space-around;
@@ -153,13 +159,6 @@ body {
     margin: 5px;
 }
 
-.statcard h2 {
-    font-size: 35px;
-}
-
-.statcard p {
-    font-size: 16px;
-}
 
 .whychoose {
     text-align: center;
@@ -168,7 +167,6 @@ body {
 }
 
 .whychoose h2 {
-    font-size: 32px;
     margin-bottom: 20px;
 }
 
@@ -199,11 +197,6 @@ body {
 .whycard h4 {
     font-size: 22px;
     margin: 10px;
-}
-
-.whycard p {
-    font-size: 16px;
-    line-height: 1.5;
 }
 
 .skills {
@@ -243,9 +236,7 @@ body {
 }
 
 .skillcard p {
-    font-size: 18px;
     font-weight: bold;
-    margin: 5px;
 }
 
 .ourgames {
@@ -260,15 +251,15 @@ body {
     letter-spacing: 2px;
 }
 
-.gameicons > p {
-    margin-bottom: 20px;
-    font-size: 18px;
-}
-
+ 
 
 .gameicons {
     width: 100%;
     text-align: center;
+}
+
+.gameicons p {
+    margin-bottom: 20px;
 }
 
 .gameitem {
@@ -302,7 +293,6 @@ body {
     font-size: 16px;
     font-weight: bold;
     margin: 10px;
-    color:var(--text-color);
     line-height: 1.5;
 }
 
@@ -380,14 +370,6 @@ body {
     text-align: center;
     margin: 10px;
     color: white;
-}
-
-.sitemap h2 { 
-    font-size: 28px;
-    margin-bottom: 15px;
-}
-
-.sitemap-links {
     padding: 10px;
 }
 
@@ -511,16 +493,6 @@ footer { background-color: var(--topbar-bg-color);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-.uniquecard h3 {
-    font-size: 28px;
-}
-
-.uniquecard p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-
 
 
 /* STYLES FOR ALL INDIVIDUAL GAMES*/
@@ -545,10 +517,12 @@ footer { background-color: var(--topbar-bg-color);
 .myslides {display: none}
 
 .slideshow-container {
-    max-width: 100%;
+    max-width: 99%; /* Just enough space so that the scrolling bar at bottom doesn't appear */
     position: relative;
     margin: auto;
 }
+
+
 
 .slide {
     display: none;
@@ -557,8 +531,8 @@ footer { background-color: var(--topbar-bg-color);
 
 .slideshow-container img {
     vertical-align: middle; 
-    width: 80%;
-    height:400px;
+    width: 70%;
+    height:450px;
     }
 
 .prev, .next {
@@ -578,12 +552,14 @@ footer { background-color: var(--topbar-bg-color);
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 3px;
+  margin: 0 5%;
 }
 
 .prev {
     left: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px;
+    margin: 0 5%;
 }
 .text {
     color: #f2f2f2;
