@@ -33,57 +33,41 @@
 </div>
 
 
-<div class="slideshowcontainer">
+  <div class="normalcontainer">Gameplay images</div>
+
+<div class="normalcontainer">
+<div class="slideshow-container">
     <div class="slide fade">
-        <div class="number">1/3</div>
-        <img src="images/Securityspace.png" style="width:100%">
-        <div class="caption">Caption here</div>
+        <div class="numbertext">1 / 3</div>
+        <img src="images/cybervault.png" alt="altext">
+        <div class="text">Caption Text</div>
     </div>
 
     <div class="slide fade">
-        <div class="number">2/3</div>
-        <img src="images/cybervault.png" style="width:100%">
-        <div class="caption">Caption here</div>
+        <div class="numbertext">2 / 3</div>
+        <img src="images/Securityspace.png" alt="alttext">
+        <div class="text">Caption Two</div>
     </div>
-    <a class="prev" onclick="plusslides(-1)">&#10094;</a>
-    <a class="next" onclick="plusslides(1)">&#10095;</a>
+
+    <div class="slide fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/Securityspace.png" alt="alttext">
+    <div class="text">Caption Three</div>
+    </div>
+
+    <a class="prev" onclick="plusslides(-1)">❮</a>
+    <a class="next" onclick="plusslides(1)">❯</a>
+
 </div>
 <br>
 
 <div style="text-align:center">
-    <span class="dot" onclick="currentslide(1)"></span>
-    <span class="dot" onclick="currentslide(2)"></span>
+  <span class="dot" onclick="currentslide(1)"></span> 
+  <span class="dot" onclick="currentslide(2)"></span> 
+  <span class="dot" onclick="currentslide(3)"></span> 
 </div>
 
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("myslides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
+</div> <!---- CLOSING DIV FOR NORMALCONTAINER -->
 
 <div class="owngamecontainer">
     <h1>Securityspace</h1>
