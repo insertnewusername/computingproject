@@ -489,13 +489,18 @@ footer { background-color: var(--topbar-bg-color);
     background-image: url(images/Securityspace.png);
     background-size: cover;
     background-repeat: no-repeat;
-
+    background-position: center;
     text-align:center;
     color:white;
-    padding: 20px;
+    padding: 80px 20px;
     margin:10px;
+    border-radius: 10px;
+    border: 3px solid var(--container-border-colour)
 }
 
+.securitybanner {
+     background-image: url(images/Securityspace.png);
+}
 
 
 /* CAROUSEL IMAGES THING */
