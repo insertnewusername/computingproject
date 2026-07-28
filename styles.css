@@ -67,65 +67,33 @@ body {
     position: absolute;
     right: 30px;
     top: 20%;
+    transition: transform 0.3s; /* Gives transition time */
 }
 
-.switch input { 
-    display:none; /* Hides the checkbox */
+.switch:hover {
+    transform: scale(1.1); /* make 1.1 bigger than originally */
 }
 
-.slider {
-    position: relative;
-    width: 70px;
-    height : 36px;
-    background-color: 8e8e93;
-    border-radius: 50px;
-    transition: 0.3s;
-}
-
-.knob {
-    position: absolute;
-    left: 3px;
-    top: 3px;
-    width: 30px;
-    height: 30px;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-#toggleicon, #sunicon {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-}
-
-#toggleicon {
-    display: none; /* Hide the moon icon by default */
-}
-
-/* Checked State */
-.switch input:checked + .slider {
-    background-color: #00bfff;
-}
-
-.switch input:checked + .slider .knob {
-    transform: translateX(34px);
-}
-
-.switch input:checked + .slider #sunicon {
+.switch input {
     display: none;
 }
 
-.switch input:checked + .slider #toggleicon {
-    display: block;
+#toggleicon,
+#sunicon {
+    width: 50px;
+    height: 50px;
 }
 
-.switch:hover{
-    transform: scale(1.05);
-    transition: 0.2s;
+#sunicon {
+    display: none;
+}
+
+.switch input:checked ~ #toggleicon {
+    display: none;
+}
+
+.switch input:checked ~ #sunicon {
+    display: block;
 }
 
 /* Navigation bar css */
