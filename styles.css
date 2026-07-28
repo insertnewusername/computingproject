@@ -515,12 +515,33 @@ footer { background-color: var(--topbar-bg-color);
      background-image: url(images/Securityspace.png);
 }
 
-
+.cyberbanner {
+    background-image: url(images/cybervault.png);
+}
 
 
 /* CAROUSEL IMAGES THING */
 
+.gameplay-section {
+    margin: 10px;
+    text-align: center;
+    color: var(--text-color);
+}
 
+.gameplay-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.gameplay-section img {
+    border-radius: 10px;
+    border: 3px solid var(--container-border-color);
+    transition: 0.3s;
+}
+
+.gameplay-section img:hover {
+    transform: scale(1.02);
+}
 
 .myslides {display: none}
 
