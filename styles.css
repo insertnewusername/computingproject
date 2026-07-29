@@ -145,12 +145,30 @@ body {
     border: 2px solid var(--container-border-color);
     border-radius: 10px;
     padding: 10px;
+    transition: 0.3s;
+}
+
+.statcard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .statcard h2, /* This way it applies to both h2 and p saving from having to apply each individually */
 .statcard p {
     margin: 5px;
 }
+
+.replay-section {
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+.replay-section > p {
+    width: 80%;
+    margin: auto;
+}
+
 
 
 .whychoose {
