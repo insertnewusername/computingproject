@@ -567,13 +567,13 @@ footer { background-color: var(--topbar-bg-color);
 .featurecard {
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 50px;
     margin: 20px;
     color: var(--text-color);
-    padding: 50px;
+    padding: 40px;
     color: var(--text-color);
     transition: 0.3s;
-    min-height: 550px;
+    min-height: 400px;
 }
 
 .featurecard:hover {
@@ -581,9 +581,13 @@ footer { background-color: var(--topbar-bg-color);
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
+.featurecard:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
 .featurecard img {
-    width: 600px;
-    height: 460px;
+    width: 450px;
+    height: 400px;
     object-fit: contain;
 }
 
