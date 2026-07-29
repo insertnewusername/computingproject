@@ -605,6 +605,94 @@ footer { background-color: var(--topbar-bg-color);
     line-height: 1.7;
 }
 
+.facility-section {
+    margin: 20px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.facility-section > p {
+    width: 80%;
+    margin: auto;
+}
+
+/* Vertical Facility Map */
+
+.facility-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 30px auto;
+}
+
+.map-room {
+    width: 70%;
+    padding: 20px;
+    background-color: var(--gameicons-bg-color);
+    border: 3px solid var(--container-border-color);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.map-room:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.map-room img {
+    width: 90%;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.map-room h3 {
+    font-size: 25px;
+    margin-top: 15px;
+    color: var(--text-color);
+}
+
+.map-arrow {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--container-border-color);
+}
+
+/* Room Description Cards */
+
+.roomcards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.roomcard {
+    width: 30%;
+    padding: 20px;
+    border: 3px solid var(--container-border-color);
+    border-radius: 10px;
+    background-color: var(--container-bg-color);
+    transition: 0.3s;
+}
+
+.roomcard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.roomcard h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.roomcard h3 {
+    font-size: 20px;
+    color: var(--container-border-color);
+    margin-top: 0;
+}
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
