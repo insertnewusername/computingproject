@@ -780,3 +780,42 @@ footer { background-color: var(--topbar-bg-color);
   top: 0;
 }
 
+
+/*Phish or Fish game css*/
+.fishbannner {
+    background-image: url(); /* Add the appropriate image URL here */
+}
+
+.simplecards {
+    display: flex;
+    gap: 20px;
+    margin: 20px 10px;
+}
+
+.simplecard {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.simplecard h2 {
+    margin-bottom: 10px;
+}
+
+.lose{
+
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.lose ul {
+
+    list-style: none;
+    padding: 0;
+}
+
+.lose li {
+
+    padding: 10px;
+    font-size: 20px;
+}
