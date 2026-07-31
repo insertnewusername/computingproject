@@ -799,7 +799,7 @@ footer { background-color: var(--topbar-bg-color);
 
 
 /*Phish or Fish game css*/
-.fishbannner {
+.fishbanner {
     background-image: url(); /* Add the appropriate image URL here */
     color: var(--text-color)
 }
