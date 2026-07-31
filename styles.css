@@ -378,32 +378,6 @@ body {
 }
 
 
-/*Css for individual games*/
-.owngamecontainer {
-    background-color: var(--container-bg-color);
-    border: 3px solid var(--container-border-color);
-    border-radius: 10px;
-    padding: 25px; /* spacing between other stuff */
-    text-align: center;
-    margin: 10px;
-    color: var(--text-color);
-}
-
-.owngamecontainer h2 {
-    font-size: 36px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.owngamecontainer p {
-    width: 80%;
-    margin: auto;
-    font-size: 20px;
-    line-height: 1.7;
-}
-
-
 
 
 
@@ -608,6 +582,7 @@ footer { background-color: var(--topbar-bg-color);
     justify-content: center;
     margin: 0px;
     gap: 20px;
+    text-align: center;
 }
 
 .featurecard {
@@ -617,9 +592,9 @@ footer { background-color: var(--topbar-bg-color);
 }
 
 .featurecard img {
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
+    width: 70%;
+    height: 200px;
+    padding-top: 10px;
 }
 
 .featurecard:hover {
