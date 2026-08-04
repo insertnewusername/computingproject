@@ -6,6 +6,7 @@
     --topbar-bg-color:#4694bb;
     --text-color:black;
     --gameicons-bg-color:rgb(167, 213, 253);
+    --gdbackground: linear-gradient(to bottom right, #3366cc 0%, #66ffff 100%);
 }
 
 /*Colour theme for when toggled on dark mode, will use these variables*/
@@ -354,8 +355,7 @@ body {
     color:white;
     border-radius: 10px;
     padding: 0 10px; /* 0 padding for top and bottom, 10px padding for left and right */
-    background-image: url(images/securityspace.png);
-    background-repeat: no-repeat;
+    background: var(--gdbackground);
     border: 3px solid var(--container-border-color);
     text-align: center;
 }
