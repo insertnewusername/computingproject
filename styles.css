@@ -28,7 +28,6 @@ body {
 
 .normalbutton a {
     display: inline-block;
-    margin: 10px;
     padding: 8px 20px;
     background-color: var(--container-border-color);
     color: white;
@@ -48,7 +47,6 @@ body {
 .normalp {
     font-size: 18px;
     line-height: 1.6;
-    margin: 0 auto;
     color:var(--text-color);
     text-decoration: none;
 }
@@ -68,7 +66,7 @@ body {
     background-color: var(--container-bg-color);
     border: 3px solid var(--container-border-color);
     border-radius: 10px;
-    padding: 10px; /* spacing between other stuff */
+    padding: 20px; /* spacing between other stuff */
     text-align: center;
 }
 
@@ -520,7 +518,6 @@ footer { background-color: var(--topbar-bg-color);
 /* CAROUSEL IMAGES THING */
 
 .gameplay-section {
-    margin: 10px;
     text-align: center;
     color: var(--text-color);
 }
@@ -545,7 +542,7 @@ footer { background-color: var(--topbar-bg-color);
 .slideshow-container {
     max-width: 99%; /* Just enough space so that the scrolling bar at bottom doesn't appear */
     position: relative;
-    margin: auto;
+    margin: 10px;
 }
 
 
@@ -565,15 +562,12 @@ footer { background-color: var(--topbar-bg-color);
 
 .featurecardwrapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0px;
-    gap: 20px;
+    gap: 0.5%; /* Percentage so gap differs for screens */
     text-align: center;
 }
 
 .featurecard {
-    width: 47%;
+    width: 48%;
     color: var(--text-color);
     transition: 0.3s;
 }
