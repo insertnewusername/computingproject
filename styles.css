@@ -62,6 +62,8 @@ body {
     font-size: 28px;
 }
 
+
+
 .normalcontainer {
     background-color: var(--container-bg-color);
     border: 3px solid var(--container-border-color);
@@ -763,4 +765,16 @@ footer { background-color: var(--topbar-bg-color);
 h5 {
     color: var(--text-color);
     text-align: center;
+}
+
+
+
+/* SECURITYSPACE CSS */
+
+.gradtext {
+    background: linear-gradient(to bottom right, #0303c4 0%, #26b968 100%); /* The gradient background for the div */
+    -webkit-background-clip: text; /* Makes the gradient only appear on text*/
+    background-clip: text;
+    color: transparent;
+    font-size: 30px; /* makes the text bigger*/
 }
