@@ -189,13 +189,6 @@ body {
 
 
 
-
-.whychoose {
-    text-align: center;
-    margin: 10px;
-    color: var(--text-color);
-}
-
 .whychoose h2 {
     margin-bottom: 20px;
 }
@@ -227,17 +220,6 @@ body {
 .whycard h4 {
     font-size: 22px;
     margin: 10px;
-}
-
-.skills {
-    text-align: center;
-    margin: 10px;
-    color: var(--text-color);
-}
-
-.skills h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
 }
 
 .skillcards {
