@@ -319,10 +319,10 @@ body {
 .mainstuff {
     color:white;
     border-radius: 10px;
-    padding: 0 10px; /* 0 padding for top and bottom, 10px padding for left and right */
     background: var(--gdbackground);
     border: 3px solid var(--container-border-color);
     text-align: center;
+    padding-bottom: 20px; /* Padding only for bottom */
 }
 
 
