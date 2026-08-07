@@ -529,26 +529,9 @@ footer { background-color: var(--topbar-bg-color);
     padding-top: 10px;
 }
 
-.facility-section {
-    margin: 20px;
-    text-align: center;
-    color: var(--text-color);
-}
-
-.facility-section > p {
-    width: 80%;
-    margin: auto;
-}
 
 /* Vertical Facility Map */
 
-.facility-map {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin: 30px auto;
-}
 
 .map-room {
     width: 45%;
@@ -601,71 +584,7 @@ footer { background-color: var(--topbar-bg-color);
     margin-left: 36%;
 }
 
-/* Room Description Cards */
 
-
-.roomcard {
-    width: 100%;
-    padding: 20px;
-    border: 3px solid var(--container-border-color);
-    border-radius: 10px;
-    background-color: var(--container-bg-color);
-    transition: 0.3s;
-    box-sizing: border-box;
-}
-
-.roomcard:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}
-
-.roomcard h2,
-.roomcard h3,
-.roomcard p,
-.skillcard-solo h3,
-.skillcard-solo h4,
-.skillcard-solo p {
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
-
-.skillcard-solo {
-    width: 100%;
-    box-sizing: border-box;
-    border: 3px solid var(--container-border-color);
-    padding: 20px;
-}
-
-.skillcard-solo p {
-    margin-top: 0;
-    font-weight: normal;
-}
-
-.skillcard-solo h4 {
-    font-size: 20px;
-    color: var(--container-border-color);
-}
-
-.skillcard-solo h3 {
-    font-size: 32px;
-}
-
-.roomcard h2 {
-    font-size: 32px;
-}
-
-.roomcard h3 {
-    font-size: 20px;
-    color: var(--container-border-color);
-}
-
-.zonetext {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 35%;
-}
 
 .prev, .next {
   cursor: pointer;
