@@ -41,29 +41,6 @@ body {
     transform: scale(1.05);
     background-color:#00bfff;
 }
-
-
-
-.normalp {
-    font-size: 18px;
-    line-height: 1.6;
-    color:var(--text-color);
-    text-decoration: none;
-}
-
-.normalh2 {
-    font-size: 32px;
-    margin-bottom: 10px;
-    text-align: center;
-    color:var(--text-color)
-}
-
-.normalh3 {
-    font-size: 28px;
-}
-
-
-
 .normalcontainer {
     background-color: var(--container-bg-color);
     border: 3px solid var(--container-border-color);
@@ -72,13 +49,6 @@ body {
     text-align: center;
     margin: 10px;
 }
-
-.hovercard div:hover{ /* Hover effect for all hover cards inside a div only, so no p or h2 etc */
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-}
-
-
 
 .Webtitle {
     background-color:var(--topbar-bg-color);
@@ -89,6 +59,43 @@ body {
     display:flex; /* can arrange both title and icon flexibly */
     position: relative;
 }
+
+.hovercard div:hover{ /* Hover effect for all hover cards inside a div only, so no p or h2 etc */
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color:var(--text-color);
+    text-decoration: none;
+}
+
+h1 {
+    color:var(--text-color);
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:var(--text-color);
+}
+
+h3 {
+    font-size: 28px;
+    color:var(--text-color);
+    margin: 5px;
+}
+h4 {
+    font-size: 22px;
+    margin: 10px;
+}
+
+
+
 
 /* Change theme sun/moon button css */
 
@@ -190,16 +197,7 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-.statcard h2, /* This way it applies to both h2 and p saving from having to apply each individually */
-.statcard p {
-    margin: 5px;
-}
 
-
-
-.whychoose h2 {
-    margin-bottom: 20px;
-}
 
 .whycards {
     display: flex;
@@ -215,15 +213,9 @@ body {
     transition: 0.3s;
 }
 
-.whycard h3 {
-    font-size: 40px;
-    margin: 5px;
-}
 
-.whycard h4 {
-    font-size: 22px;
-    margin: 10px;
-}
+
+
 
 .skillcards {
     display: flex;
@@ -524,6 +516,7 @@ footer { background-color: var(--topbar-bg-color);
     text-align: center;
 }
 
+
 .featurecard {
     width: 48%;
     color: var(--text-color);
@@ -762,12 +755,6 @@ footer { background-color: var(--topbar-bg-color);
     color: var(--text-color)
 }
 
-h5 {
-    color: var(--text-color);
-    text-align: center;
-}
-
-
 
 /* SECURITYSPACE CSS */
 
@@ -778,3 +765,4 @@ h5 {
     color: transparent;
     font-size: 30px; /* makes the text bigger*/
 }
+
