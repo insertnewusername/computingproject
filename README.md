@@ -2,11 +2,18 @@ Project Cyber
 
 Project cyber is a professional (hopefully) website that is aimed at advertising three games. Cybervault, Phish or fish, and Securityspace.
 
-It's a very simple website, consisting of HTML, css and javascript, which was all handcoded without the help of ai.
+It's a very simple website, consisting of HTML, css and javascript, which was all handcoded without the help of ai, although ai was used to assist with some advertisement images (not code tho)
+
+Coding without ai really did make a big difference, as we had to lay the code foundations ourself, instead of polishing a ready made code, like some of my previous projects. 
+
+Found w3schools and grok learning really useful so went through few of those tutorials before I started coding.
+
 
 The website itself is pretty explanatory, therefore a long readme is unnessecary
 
 Games advertised in project cyber: Cybervault, Phish or Fish and securityspace
+
+ NO AI WAS USED IN THE GENERATION OF THE CODE, ALTHOUGH AI WAS USED TO GENERATE PROMOTIONAL IMAGES
 
 This is a project for #horizons
 
