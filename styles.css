@@ -77,6 +77,11 @@ h1 {
     color:var(--text-color);
 }
 
+.bigh1 {
+    color:var(--text-color);
+    font-size: 50px;
+}
+
 h2 {
     font-size: 32px;
     margin-bottom: 10px;
