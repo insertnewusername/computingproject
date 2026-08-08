@@ -6,4 +6,6 @@ It's a very simple website, consisting of HTML, css and javascript, which was al
 
 The website itself is pretty explanatory, therefore a long readme is unnessecary
 
+Games advertised in project cyber: Cybervault, Phish or Fish and securityspace
+
 This is a project for #horizons
