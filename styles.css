@@ -682,6 +682,6 @@ footer { background-color: var(--topbar-bg-color);
     -webkit-background-clip: text; /* Makes the gradient only appear on text*/
     background-clip: text;
     color: transparent;
-    font-size: 30px; /* makes the text bigger*/
+    font-size: 60px; /* makes the text bigger*/
 }
 
