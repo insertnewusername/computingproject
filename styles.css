@@ -433,8 +433,10 @@ footer {
     background-image: url(images/cybervault.png);
 }
 
-.fishbanner  {
-     background-image: url(images/fishbanner.png);
+.fishbanner {
+    background-image: url(images/fishbanner.png);
+    height: 50%;
+
 }
 
 
@@ -593,10 +595,8 @@ footer {
 }
 
 
-/*Phish or Fish game css*/
-.fishbanner {
-    background-image: url(); /* Add the appropriate image URL here */
-}
+
+
 
 .simplecards {
     display: flex;
@@ -609,25 +609,6 @@ footer {
     padding: 20px;
 }
 
-.simplecard h2 {
-    margin-bottom: 10px;
-}
-
-.lose{
-    margin: 10px 20px;
-}
-
-.lose ul {
-
-    list-style: none;
-    padding: 0;
-}
-
-.lose li {
-
-    padding: 10px;
-    font-size: 20px;
-}
 
 
 /* SECURITYSPACE CSS */
