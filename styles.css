@@ -24,6 +24,7 @@ body {
     background-color: var(--body-bg-color);
     color: black;
     font-family: 'Rajdhani', sans-serif; /*Applies the font to everything*/
+    color:var(--text-color);
 }
 
 .normalbutton a {
@@ -69,16 +70,11 @@ body {
 p {
     font-size: 18px;
     line-height: 1.6;
-    color:var(--text-color);
     text-decoration: none;
 }
 
-h1 {
-    color:var(--text-color);
-}
 
 .bigh1 {
-    color:var(--text-color);
     font-size: 50px;
 }
 
@@ -86,12 +82,10 @@ h2 {
     font-size: 32px;
     margin-bottom: 10px;
     text-align: center;
-    color:var(--text-color);
 }
 
 h3 {
     font-size: 28px;
-    color:var(--text-color);
     margin: 5px;
 }
 h4 {
@@ -234,7 +228,6 @@ h4 {
 
 .ourgames {
     text-align:center;
-    color:var(--text-color);
     margin:10px;
 }
 
