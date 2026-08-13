@@ -1,9 +1,9 @@
 /* Light mode theme :root means that it's the default */
 :root, [data-theme="default"] {
-    --body-bg-color:#5a8fdf;
+    --body-bg-color:#4383ae;
     --container-bg-color:#47c2ff;
     --container-border-color:#1a7cad;
-    --topbar-bg-color:#4694bb;
+    --topbar-bg-color:#5895ea;
     --text-color:black;
     --gameicons-bg-color:rgb(167, 213, 253);
     --gdbackground: linear-gradient(to bottom right, #3366cc 0%, #66ffff 100%); /* This is a gradient */
@@ -97,7 +97,7 @@ h4 {
 .switch {
     position: absolute;
     right: 60px;
-    top: 20%;
+    top: 15%;
     transition: transform 0.3s; /* Gives transition time */
 }
 
@@ -111,13 +111,11 @@ h4 {
 
 .icons{
     display: flex;
-    align-items: center;
-    gap: 10px; 
+    align-items: center; 
 }
 
-.pressicon {
-    width: 300px;
-    height: 300px;
+.pressbutton {
+    width: 80px;
     transition: transform(0.3s);
 }
 
