@@ -1,7 +1,7 @@
 /* Light mode theme :root means that it's the default */
 :root, [data-theme="default"] {
     --body-bg-color:#4383ae;
-    --container-bg-color:#47c2ff;
+    --container-bg-color:#60b3ef;
     --container-border-color:#1a7cad;
     --topbar-bg-color:#5895ea;
     --text-color:black;
