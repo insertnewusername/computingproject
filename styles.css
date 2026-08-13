@@ -1,7 +1,7 @@
 /* Light mode theme :root means that it's the default */
 :root, [data-theme="default"] {
-    --body-bg-color:#afc4e4;
-    --container-bg-color:#70b8dc;
+    --body-bg-color:#5a8fdf;
+    --container-bg-color:#47c2ff;
     --container-border-color:#1a7cad;
     --topbar-bg-color:#4694bb;
     --text-color:black;
@@ -43,6 +43,7 @@ body {
     transform: scale(1.05);
     background-color:#00bfff;
 }
+
 .normalcontainer {
     background-color: var(--container-bg-color);
     border: 3px solid var(--container-border-color);
@@ -66,13 +67,11 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-
 p {
     font-size: 18px;
     line-height: 1.6;
     text-decoration: none;
 }
-
 
 .bigh1 {
     font-size: 50px;
@@ -87,13 +86,11 @@ h3 {
     font-size: 28px;
     margin: 5px;
 }
+
 h4 {
     font-size: 22px;
     margin: 10px;
 }
-
-
-
 
 /* Change theme sun/moon button css */
 
@@ -109,7 +106,7 @@ h4 {
 }
 
 .switch input {
-    display: none;
+    display: none; /* Hides the checkbox thing */
 }
 
 .icons{
@@ -118,33 +115,14 @@ h4 {
     gap: 10px; 
 }
 
-#toggleicon,
-#sunicon {
-    width: 50px;
-    height: 50px;
+.pressicon {
+    width: 300px;
+    height: 300px;
     transition: transform(0.3s);
 }
-#toggleicon {
-    left: 30px;
-}
 
-#sunicon {
-    display: block;
-    right: 60px;
-}
-
-.switch input:checked ~ #toggleicon {
-    display:block; /* can arrange both title and icon flexibly */
-    transform: scale(1.2);
-}
-
-.switch input:checked ~ #sunicon {
-    display: block;
-    transform: scale(1.2);
-}
 
 /* Navigation bar css */
-
 
 .Navigationbar {
     background-color:var(--topbar-bg-color);
@@ -171,8 +149,6 @@ h4 {
 
 }
 
-
-
 .aboutstats {
     display: flex;
     justify-content: space-around;
@@ -192,8 +168,6 @@ h4 {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
-
-
 
 .whycards {
     display: flex;
@@ -232,8 +206,6 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-
- 
 
 .gameicons {
     width: 100%;
@@ -281,10 +253,6 @@ h4 {
     margin: 10px;
 }
 
-
-
- 
-
 .mainstuff {
     color:white;
     border-radius: 10px;
@@ -292,10 +260,6 @@ h4 {
     border: 3px solid var(--container-border-color);
     padding-bottom: 20px; /* Padding only for bottom */
 }
-
-
-
-
 
 /* Sitemap css */
 
@@ -324,11 +288,6 @@ footer {
     color: white;
 }
 
-
-
-
-
-
 /* About Us page css */
 
 .aboutbanner {
@@ -342,7 +301,6 @@ footer {
     font-size: 55px;
     margin-bottom: 10px;
 }
-
 
 .aboutdescription h2 {
     font-size: 38px;
@@ -409,8 +367,6 @@ footer {
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-
-
 /* STYLES FOR ALL INDIVIDUAL GAMES*/
 
 .gamebanner {
@@ -435,10 +391,7 @@ footer {
 
 .fishbanner {
     background-image: url(images/fishbanner.png);
-    background-size: fill;
-
 }
-
 
 /* CAROUSEL IMAGES THING */
 
@@ -464,8 +417,6 @@ footer {
     position: relative;
 }
 
-
-
 .slide {
     display: none;
 }
@@ -474,7 +425,7 @@ footer {
     vertical-align: middle; 
     width: 70%;
     height:450px;
-    }
+}
 
 /* Feature Cards */
 
@@ -482,7 +433,6 @@ footer {
     display: flex;
     gap: 0.5%; /* Percentage so gap differs for screens */
 }
-
 
 .featurecard {
     width: 48%;
@@ -495,9 +445,7 @@ footer {
     padding-top: 10px;
 }
 
-
 /* Vertical Facility Map */
-
 
 .map-room {
     width: 45%;
@@ -549,8 +497,6 @@ footer {
     margin-left: 36%;
 }
 
-
-
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -577,6 +523,7 @@ footer {
     border-radius: 3px;
     margin: 0 5%;
 }
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -594,10 +541,6 @@ footer {
   top: 0;
 }
 
-
-
-
-
 .simplecards {
     display: flex;
     gap: 20px;
@@ -608,8 +551,6 @@ footer {
     flex: 1;
     padding: 20px;
 }
-
-
 
 /* SECURITYSPACE CSS */
 
