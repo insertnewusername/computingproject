@@ -457,6 +457,19 @@ ul {
     width: 35%;
 }
 
+.zonetext .normalcontainer h4:first-child {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: var(--container-border-color);
+}
+
+.zonetext .normalcontainer h4:nth-child(2) {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 
 .map-arrow {
     font-size: 45px;
