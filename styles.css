@@ -294,10 +294,6 @@ footer {
 
 /* CAROUSEL IMAGES THING */
 
-.gameplay-section h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
 
 .gameplay-section img {
     border-radius: 10px;
@@ -308,8 +304,6 @@ footer {
 .gameplay-section img:hover {
     transform: scale(1.02);
 }
-
-.myslides {display: none}
 
 .slideshow-container {
     max-width: 99%; /* Just enough space so that the scrolling bar at bottom doesn't appear */
@@ -326,74 +320,6 @@ footer {
     height:450px;
 }
 
-/* Feature Cards */
-
-.featurecardwrapper {
-    display: flex;
-    gap: 0.5%; /* Percentage so gap differs for screens */
-}
-
-.featurecard {
-    width: 48%;
-    transition: 0.3s;
-}
-
-.featurecard img {
-    width: 70%;
-    height: 200px;
-    padding-top: 10px;
-}
-
-/* Vertical Facility Map */
-
-.map-room {
-    width: 45%;
-    padding: 20px;
-    background-color: var(--gameicons-bg-color);
-    border: 3px solid var(--container-border-color);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.map-room:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
-}
-
-.map-room img {
-    width: 90%;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.zonerow {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.zonetext {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 35%;
-}
-
-.map-room h3 {
-    font-size: 25px;
-    margin-top: 15px;
-}
-
-.map-arrow {
-    font-size: 45px;
-    font-weight: bold;
-    color: var(--container-border-color);
-    margin-left: 36%;
-}
 
 .prev, .next {
   cursor: pointer;
@@ -450,6 +376,24 @@ footer {
     padding: 20px;
 }
 
+/* Feature Cards */
+
+.featurecardwrapper {
+    display: flex;
+    gap: 0.5%; /* Percentage so gap differs for screens */
+}
+
+.featurecard {
+    width: 48%;
+    transition: 0.3s;
+}
+
+.featurecard img {
+    width: 70%;
+    height: 200px;
+    padding-top: 10px;
+}
+
 /* SECURITYSPACE CSS */
 
 .gradtext {
@@ -458,4 +402,48 @@ footer {
     background-clip: text;
     color: transparent;
     font-size: 60px; /* makes the text bigger*/
+}
+
+/* VIBU PERSONAL PAGE SPECIFIC*/
+/* Vertical Facility Map */
+
+.map-room {
+    width: 45%;
+    padding: 20px;
+    background-color: var(--gameicons-bg-color);
+    border: 3px solid var(--container-border-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.map-room img {
+    width: 90%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.zonerow {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.zonetext {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 35%;
+}
+
+
+.map-arrow {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--container-border-color);
+    margin-left: 36%;
 }
