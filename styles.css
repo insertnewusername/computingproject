@@ -1,9 +1,9 @@
 /* Light mode theme :root means that it's the default */
 :root, [data-theme="default"] {
-    --body-bg-color:#4383ae;
-    --container-bg-color:#60b3ef;
-    --container-border-color:#1a7cad;
-    --topbar-bg-color:#5895ea;
+    --body-bg-color:#C1DFF0;
+    --container-bg-color:#88CCF1;
+    --container-border-color:#3587A4;
+    --topbar-bg-color:#69a5cf;
     --text-color:black;
     --gameicons-bg-color:rgb(167, 213, 253);
     --gdbackground: linear-gradient(to bottom right, #3366cc 0%, #66ffff 100%); /* This is a gradient */
@@ -19,6 +19,8 @@
     --gameicons-bg-color:#0d1b2e;
     --gdbackground: linear-gradient(to bottom right, #003399 0%, #99ccff 100%);
 }
+
+
 
 body {
     background-color: var(--body-bg-color);
@@ -106,7 +108,7 @@ h4 {
 }
 
 .switch input {
-    display: none; /* Hides the checkbox thing */
+    display: none; /* Hides the checkbox */
 }
 
 .icons{
@@ -126,7 +128,7 @@ h4 {
     background-color:var(--topbar-bg-color);
     font-size: 20px; 
     display: flex;
-    justify-content: space-around; /* spaces everything evenly cuz flex */
+    justify-content: space-around; /* spaces everything evenly due to flex */
 }
 
 /* Padding for navbar ahrefs */
@@ -559,4 +561,3 @@ footer {
     color: transparent;
     font-size: 60px; /* makes the text bigger*/
 }
-
