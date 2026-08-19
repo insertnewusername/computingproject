@@ -13,18 +13,24 @@ The website itself is pretty explanatory, therefore a long readme is unnessecary
 
 Games advertised in project cyber: Cybervault, Phish or Fish and securityspace
 
- NO AI WAS USED IN THE GENERATION OF THE CODE, ALTHOUGH AI WAS USED TO GENERATE PROMOTIONAL IMAGES
+ NO AI WAS USED IN THE GENERATION OF THE CODE
 
 This is a project for #horizons
 
 Screenshots: 
 
 Homepage: 
-<img width="1917" height="866" alt="Screenshot 2026-08-08 154119" src="https://github.com/user-attachments/assets/d2a121ca-482e-4856-9f8d-2994f79e7e17" />
+<img width="1919" height="864" alt="Screenshot 2026-08-18 072234" src="https://github.com/user-attachments/assets/cd402a7f-1191-460c-84c5-2fa6d8ca5368" />
+
 
 Securityspace:
-<img width="1916" height="857" alt="Screenshot 2026-08-08 154150" src="https://github.com/user-attachments/assets/6ba7aa8c-4be3-4cde-a611-c67359390149" />
 
-Checkout:
-<img width="1917" height="861" alt="Screenshot 2026-08-08 154207" src="https://github.com/user-attachments/assets/df6f5c3a-f6a5-446c-8ff8-55421e298336" />
+<img width="1914" height="848" alt="Screenshot 2026-08-18 072457" src="https://github.com/user-attachments/assets/b020d651-bfb7-4807-adbe-32fe6d379310" /> 
+Checkout
+
+<img width="1864" height="776" alt="Screenshot 2026-08-18 072425" src="https://github.com/user-attachments/assets/b8659ac5-1237-477f-96d1-3cdf19e3ec82" />
+
+ 
+
+
 
