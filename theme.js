@@ -7,12 +7,12 @@ document.getElementById('toggler').addEventListener('change', (event) => {
 
 
 function darkmode() {
-  document.getElementById("toggleicon").src = "images/Moon.png"
+  document.getElementById("toggleicon").src = "images/moon.png"
   body.setAttribute('data-theme', 'dark')
 }
 
 function lightmode() {
-  document.getElementById("toggleicon").src = "images/Sun.png"
+  document.getElementById("toggleicon").src = "images/sun.png"
    body.removeAttribute('data-theme');
 }
  
