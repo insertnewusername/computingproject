@@ -400,8 +400,16 @@ ul {
 
 /* SECURITYSPACE CSS */
 
+
 .gradtext {
     background: linear-gradient(to bottom right, #0303c4 0%, #26b968 100%); /* The gradient background for the div */
+}
+
+.gradtext2 {
+    background: linear-gradient(to bottom right, #3366cc 0%, #33cccc 100%);
+}
+
+.gradtext, .gradtext2 {
     -webkit-background-clip: text; /* Makes the gradient only appear on text*/
     background-clip: text;
     color: transparent;
