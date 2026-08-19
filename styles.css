@@ -1,4 +1,4 @@
-g/* Light mode theme :root means that it's the default */
+/* Light mode theme :root means that it's the default */
 :root, [data-theme="default"] {
     --body-bg-color:#C1DFF0;
     --container-bg-color:#88CCF1;
