@@ -8,6 +8,7 @@ Coding without ai really did make a big difference, as we had to lay the code fo
 
 Found w3schools and grok learning really useful so went through few of those tutorials before I started coding.
 
+Website url: https://insertnewusername.github.io/computingproject/
 
 The website itself is pretty explanatory, therefore a long readme is unnessecary
 
