@@ -64,6 +64,12 @@ img {
     border-radius: 10px;
 }
 
+.bigimg {
+    width: 90%;
+    margin: 20px; /* margin instead of padding so it still has the border radius */
+
+}
+
 /* Change theme sun/moon button css */
 
 .switch {
@@ -312,6 +318,7 @@ footer {
 
 ul {
     list-style:none;
+    font-size: 28px;
 }
 
 
@@ -407,19 +414,23 @@ ul {
 
 /* Feature Cards */
 
-.featurecardwrapper {
+.featurecardwrapper, .securitycardwrapper {
     display: flex;
     gap: 0.5%; /* Percentage so gap differs for screens */
 }
 
+.securitycardwrapper {
+    flex-wrap: wrap;
+}
+
 .featurecard {
-    width: 48%;
+    width: 45%;
     transition: 0.3s;
 }
 
 .featurecard img {
     width: 70%;
-    height: 200px;
+    height: 60%;
 }
 
 /* SECURITYSPACE CSS */
