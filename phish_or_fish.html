@@ -41,24 +41,24 @@
 
 
    <div class="gameplay-section normalcontainer">
-    <h1>Gameplay Preview</h1>
+      <h1>Gameplay Preview</h1>
 <div class="slideshow-container">
     <div class="slide fade">
         <div class="numbertext">1 / 3</div>
-        <img src="images/pishorfish1.png" alt="This is the password creation">
-        <div class="text">This is the password creation</div>
+        <img src="images/phish1.png" alt="This is the password creation">
+        <div class="text">This is the password creation.</div>
     </div>
 
     <div class="slide fade">
         <div class="numbertext">2 / 3</div>
-        <img src="images/phishorfish2.png" alt="This is the fishing gameplay">
-        <div class="text">This is the fishing gameplay</div>
+        <img src="images/phish2.png" alt="This is the fishing gameplay">
+        <div class="text">This is the shop.</div>
     </div>
 
     <div class="slide fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="images/phishorfish3.png" alt="This is the Shop.">
-    <div class="text">This is the Shop.</div>
+        <div class="numbertext">3 / 3</div>
+        <img src="images/phish3.png" alt="This is the Shop.">
+        <div class="text">This is the fishing gameplay.</div>
     </div>
 
     <a class="prev" onclick="plusslides(-1)">❮</a>
@@ -68,9 +68,9 @@
 <br>
 
 
-  <span class="dot" onclick="currentslide(1)"></span> 
-  <span class="dot" onclick="currentslide(2)"></span> 
-  <span class="dot" onclick="currentslide(3)"></span> 
+    <span class="dot" onclick="currentslide(1)"></span> 
+    <span class="dot" onclick="currentslide(2)"></span> 
+    <span class="dot" onclick="currentslide(3)"></span> 
 
 </div> <!---- CLOSING DIV FOR GAMEPLAY-SECTION FOR NORMALCONTAINER -->
 
@@ -115,83 +115,86 @@
     </div> 
 </div>
 
+<div class="normalcontainer hovercard">
     <h1>UPGRADE YOUR TOOLS, VIEW THE ENCYCLOPEDIA, AND REPORT <b>PHISH</b> AT THE SHOP</h1>
     <br>
      <h4>Earn coins by catching and saving the native fish</h4>
     <br>
 <div class="featurecardwrapper hovercard">
    
-     <div class="featurecard normalcontainer">
-       <img src="images/hookbutton.png" alt="Upgrade Hook button">
-       <div class="featuretext">
-        <h1>Upgrade Hook</h1>
-        <p>Increase the size of the hook.</p>
-       </div>
+      <div class="featurecard normalcontainer">
+          <img src="images/hookbutton.png" alt="Upgrade Hook button">
+          <div class="featuretext">
+                <h1>Upgrade Hook</h1>
+                <p>Increase the size of the hook.</p>
+           </div>
+     </div>
+
+      <div class="featurecard normalcontainer">
+           <img src="images/lurebutton.png" alt="Upgrade Lure button">
+           <div class="featuretext">
+                 <h1>Upgrade Lure</h1>
+                 <p>Increase the speed of the fish.</p>
+           </div>
      </div>
 
      <div class="featurecard normalcontainer">
-        <img src="images/lurebutton.png" alt="Upgrade Lure button">
-        <div class="featuretext">
-         <h1>Upgrade Lure</h1>
-         <p>Increase the speed of the fish.</p>
-        </div>
+            <img src="images/valuebutton.png" alt="Upgrade Value of Fish button">
+            <div class="featuretext">
+                 <h1>Upgrade Value of fish</h1>
+                 <p>Increase the value gained when a fish is caught.</p>
+            </div>
      </div>
 
      <div class="featurecard normalcontainer">
-        <img src="images/valuebutton.png" alt="Upgrade Value of Fish button">
-        <div class="featuretext">
-         <h1>Upgrade Value of fish</h1>
-         <p>Increase the the coin value gained when a fish is caught.</p>
-        </div>
+            <img src="images/encbutton.png" alt="Access Encyclopedia button">
+            <div class="featuretext">
+                 <h1>Access Encyclopedia</h1>
+                 <p>View the array of fish native to the lake.</p>
+            </div>
      </div>
 
      <div class="featurecard normalcontainer">
-        <img src="images/encbutton.png" alt="Access Encyclopedia button">
-        <div class="featuretext">
-         <h1>Access Encyclopedia</h1>
-         <p>View the array of fish native to the lake.</p>
-        </div>
-     </div>
+            <img src="images/reportbutton.png" alt="Report Fish Button">
+            <div class="featuretext">
+                 <h1><strong>Report Phish</strong></h1>
+                 <p>Report all the vicious phish in the lake.</p>
+            </div>
+      </div>
 
-     <div class="featurecard normalcontainer">
-        <img src="images/reportbutton.png" alt="Report Fish Button">
-        <div class="featuretext">
-         <h1><strong>Report Phish</strong></h1>
-         <p>Report all of the vicious phish present in the lake.</p>
-        </div>
-     </div>
-
+</div>
 </div>
 
 
+<div class="simplecards hovercard">
+    <div class="simplecard normalcontainer quiz-round">
+        <h1>Fish or Phish<br>Try a basic version of the game!</h1>
 
+        <img src="images/quiz.png" alt="Is it a fish or phish?">
 
-<div class="normalcontainer hovercard">
-    <h1>Ways to lose</h1>
-    <ul>
-        <li>Reporting an innocent fish</li>
-        <li>Purchasing before reporting a Phish</li>
-        <li>Catch a phish but ignore it</li>
-        <li>Run out of time before catching 5 phish</li>
-    </ul>
+        <p>Is this a Fish or a Phish?</p>
+
+        <input type="radio" name="answer" id="fish">
+        <label for="fish">FISH</label>
+
+        <input type="radio" name="answer" id="phish">
+        <label for="phish">PHISH</label>
+
+        <p id="correct"><strong>Correct!</strong> This was a phish.</p>
+        <p id="wrong"><strong>Wrong!</strong> This was actually a deceptive phish.</p>
+    </div>
+    
+    <div class="simplecard normalcontainer">
+        <h1>Ways to lose</h1>
+        <ul>
+            <li>Reporting an innocent fish</li>
+            <li>Purchasing before reporting a Phish</li>
+            <li>Catch a phish but ignore it</li>
+            <li>Run out of time before catching 5 phish</li>
+        </ul>
+    </div>
 </div>
 
-<div class="normalcontainer quiz-round">
-    <h1>Fish or Phish<br>Try a basic version of the game!</h1>
-
-    <img src="images/quiz.png" alt="Is it a fish or phish?">
-
-    <p>Is this a Fish or a Phish?</p>
-
-    <input type="radio" name="answer" id="fish">
-    <label for="fish">FISH</label>
-
-    <input type="radio" name="answer" id="phish">
-    <label for="phish">PHISH</label>
-
-    <p id="correct"><strong>Correct!</strong> This was a phish.</p>
-    <p id="wrong"><strong>Wrong!</strong> This was actually a deceptive phish.</p>
-</div>
 
 <div class="replay-section normalcontainer hovercard">
     <h1>Ready for another patrol?</h1>

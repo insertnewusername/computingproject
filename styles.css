@@ -280,11 +280,11 @@ footer {
 }
 
 .cyberbanner {
-    background-image: url(images/Cyberbanner.png);
+    background-image: url(images/CyberBanner.jpeg);
 }
 
 .fishbanner {
-    background-image: url(images/fishbanner.png);
+    background-image: url(images/fishbanner1.png);
 }
 
 
@@ -424,13 +424,13 @@ ul {
 }
 
 .featurecard {
-    width: 45%;
+    width: 40%;
     transition: 0.3s;
 }
 
 .featurecard img {
-    width: 70%;
-    height: 60%;
+    width: 120px;
+    height: 120px;
 }
 
 /* SECURITYSPACE CSS */
