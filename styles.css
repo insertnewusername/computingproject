@@ -424,7 +424,7 @@ ul {
 }
 
 .featurecard {
-    width: 40%;
+    width: 45%;
     transition: 0.3s;
 }
 
@@ -551,4 +551,9 @@ ul {
 
 #phish:checked ~ #correct {
     display: block; /* Shows the correct message if fish is selected */
+}
+
+.securitycardwrapper img {
+    width: 70%;
+    height: 60%;
 }
