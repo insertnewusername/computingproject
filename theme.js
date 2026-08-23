@@ -15,14 +15,14 @@ if (savedTheme === 'dark') {
 }
 
 function darkmode() {
-  document.getElementById("toggleicon").src = "images/Moon.png"
+  document.getElementById("toggleicon").src = "images/moon.png"
   body.setAttribute('data-theme', 'dark')
   localStorage.setItem('theme', 'dark');/* localstorage so that the theme persists even if you leave page, enter another page etc*/
   toggler.checked = true; /* Fix checkbox problem*/
 }
 
 function lightmode() {
-  document.getElementById("toggleicon").src = "images/Sun.png"
+  document.getElementById("toggleicon").src = "images/sun.png"
    body.removeAttribute('data-theme');
    localStorage.setItem('theme', 'light');
   toggler.checked = false;
