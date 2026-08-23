@@ -423,10 +423,11 @@ ul {
 
 .securitycardwrapper {
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .featurecard {
-    width: 45%;
+    width: 42%;
     transition: 0.3s;
 }
 
