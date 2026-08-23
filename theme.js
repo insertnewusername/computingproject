@@ -1,5 +1,6 @@
 
 var body = document.body;  /* Targets document body */
+var toggler = document.getElementById('toggler');
 document.getElementById('toggler').addEventListener('change', (event) => {
   event.target.checked ? darkmode()/* If checked, set datatheme to dark */ : lightmode()/* if unchecked, remove dark datatheme (changes to light default) */
 });

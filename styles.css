@@ -277,10 +277,12 @@ footer {
 
 .securitybanner {
      background-image: url(images/securitybanner.png);
+     color:black
 }
 
 .cyberbanner {
     background-image: url(images/CyberBanner.jpeg);
+    color: black; /* Overrides the white text colour for this banner */
 }
 
 .fishbanner {
