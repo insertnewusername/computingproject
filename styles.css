@@ -1,6 +1,6 @@
 /* Light mode theme :root means that it's the default */
 :root, [data-theme="default"] {
-    --body-bg-color:#C1DFF0;
+    --body-bg-color:#C1DFF0; /* This is a hex coluor*/
     --container-bg-color:#88CCF1;
     --container-border-color:#3587A4;
     --topbar-bg-color:#69a5cf;
@@ -51,7 +51,7 @@ body {
 
 
 p {
-    font-size: 18px;
+    font-size: 18px; /* Declares the size of the font */
     line-height: 1.6;
     text-decoration: none;
 }
@@ -61,7 +61,7 @@ p {
 }
 
 img {
-    border-radius: 10px;
+    border-radius: 10px; /* Rounded borders for images*/
 }
 
 .bigimg {
@@ -96,7 +96,7 @@ img {
 /* Navigation bar css */
 
 .Navigationbar {
-    background-color:var(--topbar-bg-color);
+    background-color:var(--topbar-bg-color); /* Css variable so can change depending on theme */
     font-size: 20px; 
     display: flex;
     justify-content: space-around; /* spaces everything evenly due to flex */
@@ -116,7 +116,7 @@ img {
     border-radius:10px;
     background-color: #00bfff;
     color: white;
-    transform: translateY(-3px);
+    transform: translateY(-3px); /* Moves up*/
 
 }
 
@@ -177,12 +177,12 @@ footer {
 
 .hovercard div:hover{ /* Hover effect for all hover cards inside a div only, so no p or h2 etc */
     transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Shadowing on hover*/
 }
 
 .aboutstats {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Tells how content inside flexbox will be spaced*/
     gap: 10px;
     margin-top: 20px;
 }
@@ -393,14 +393,6 @@ ul {
   bottom: 8px;
   width: 100%;
   display: block;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
 }
 
 .simplecards {
