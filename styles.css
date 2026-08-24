@@ -67,7 +67,7 @@ img {
 .bigimg {
     width: 900px;
     height:500px;
-    margin: 20px; /* margin instead of padding so it still has the border radius */
+    margin: 20px; /* margin instead of paddinsg so it still has the border radius */
 
 }
 
