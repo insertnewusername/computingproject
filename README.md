@@ -4,6 +4,8 @@ Project cyber is a professional (hopefully) website that is aimed at advertising
 
 It's a very simple website, consisting of HTML, css and javascript, which was all handcoded without the help of ai. Progress can be seen through the commits section. Although open source codes were read through and some of the javascript were inspired by open source code and scraps from places on the internet, including w3schools.
 
+I'm not too sure why this project got rejected last time so imma just reship?
+
 Coding without ai really did make a big difference, as we had to lay the code foundations ourself, instead of polishing a ready made code, like some of my previous projects. 
 
 Found w3schools and grok learning really useful so went through few of those tutorials before I started coding.
