@@ -16,7 +16,8 @@ The website itself is pretty explanatory, therefore a long readme is unnessecary
 
 Games advertised in project cyber: Cybervault, Phish or Fish and securityspace
 
- NO AI WAS USED IN THE GENERATION OF THE CODE
+AI DECLARATION:
+No AI was used directly for the generation of code, although AI was used for suggestions on how something could be achieved. For example, we asked AI how to make something in a 2 by 2 layout, AI said flexbox and wrap, and we then went to W3Schools to see their tutorials on flexboxes, read through it, and used what we got out of it to achieved what we wanted.
 
 This is a project for #horizons
 
