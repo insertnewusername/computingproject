@@ -2,7 +2,7 @@ Project Cyber
 
 Project cyber is a professional (hopefully) website that is aimed at advertising three games. Cybervault, Phish or fish, and Securityspace.
 
-It's a very simple website, consisting of HTML, css and javascript, which was all handcoded without the help of ai. Progress can be seen through the commits section. Although open source codes were read through and some of the javascript were inspired by open source code and scraps from places on the internet, including w3schools.
+It's a very simple website, consisting of HTML, css and javascript, which was all handcoded without the help of ai code generation. Progress can be seen through the commits section. Although open source codes were read through and some of the javascript were inspired by open source code and scraps from places on the internet, including w3schools.
 
 I'm not too sure why this project got rejected last time so imma just reship?
 
