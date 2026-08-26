@@ -8,7 +8,7 @@ I'm not too sure why this project got rejected last time so imma just reship?
 
 Coding without ai doing most of the work really did make a big difference, as we had to lay the code foundations ourself, instead of polishing a ready made code, like some of my previous projects. 
 
-Found w3schools and grok learning really useful so went through few of those tutorials before I started coding. As well as went back to them every now and then for reference
+Found w3schools and grok learning really useful so went through few of those tutorials before I started coding. As well as went back to them every now and then for reference. The carousels for images was also heavily inspired/based off w3schools.
 
 Website url: https://insertnewusername.github.io/computingproject/
 The website itself is very self explanatory
