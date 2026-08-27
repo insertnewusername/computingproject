@@ -2,6 +2,8 @@ Project Cyber
 
 Project cyber is a professional (hopefully) website that is aimed at advertising and marketing three (really good hopefully) games. Cybervault, Phish or fish, and Securityspace.
 
+I HAVE REMOVED ALL AI IMAGES AND ASSETS, I AM VERY SURE THERE IS NO AI IMAGES WHATSOEVER IN THE WEBSITE NOW
+
 It's a very simple website, consisting of HTML, css and javascript, which was all handcoded without the help of ai code generation tools. Progress can be seen through the commits section. Although open source codes were read through and some of the javascript were inspired by open source code and scraps from places on the internet, including w3schools.
 
 I'm not too sure why this project got rejected last time so imma just reship?
@@ -19,6 +21,11 @@ AI DECLARATION:
 No AI was used directly for the generation of code, although AI was used for suggestions on how something could be achieved. For example, we asked AI how to make something in a 2 by 2 layout, AI said flexbox and wrap, and we then went to W3Schools to see their tutorials on flexboxes, read through it, and used what we got out of it to achieved what we wanted.
 
 This is a project for #horizons
+
+Bibliography thing for assets:
+https://static.vecteezy.com/system/resources/previews/007/950/908/non_2x/green-grass-field-with-blue-sky-ad-white-cloud-nature-landscape-background-free-photo.jpg
+https://img.freepik.com/premium-vector/cartoon-bank-vault-with-money-vector-illustration_264840-7.jpg?w=996
+https://img.pikbest.com/wp/202345/ocean-fish-cartoon-of-swimming-in-the_9612565.jpg!bw700
 
 Screenshots: 
 
