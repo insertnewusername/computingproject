@@ -1,3 +1,8 @@
+<h3> NOTE TO REVIEWER: The whole purpose of the website was to advertise the games. Which is why I didn't link them, and uhh they are kinda long lost scratch games so i can't really link them even if I wanted to. Also please message me on slack, because I want to ask about why my code was considered AI. Although I have acknowledge that the javascript was AI assisted, I coded the html and css, spending a while on them. My commits section can prove it all </h3>
+
+
+
+
 Project Cyber
 
 Project cyber is a professional (hopefully) website that is aimed at advertising and marketing three (really good hopefully) games. Cybervault, Phish or fish, and Securityspace.
