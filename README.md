@@ -1,6 +1,6 @@
 <h3> NOTE TO REVIEWER: The whole purpose of the website was to advertise the games. Which is why I didn't link them, and uhh they are kinda long lost scratch games so i can't really link them even if I wanted to. Also please message me on slack, because I want to ask about why my code was considered AI. Although I have acknowledge that the javascript was AI assisted, I coded the html and css, spending a while on them. My commits section can prove it all </h3>
 
-
+<h2>PLEASE DM ME ON SLACK I HAVE A LOT I WANT TO CLARIFY BECAUSE OF THE VERY FUNNY AND NOT FUNNY TIMELINE I HAVE ON THIS PROJECT</h2>
 
 
 Project Cyber
