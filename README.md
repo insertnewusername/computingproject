@@ -1,4 +1,4 @@
-<h3> NOTE TO REVIEWER: I have applied all changes requested from my last rejection, and had a horizons help ticket justifying why some changes (such as linking games) could not or should not be made, and those justifications were read by the original reviewer and acknowledged </h3>
+<h3> NOTE TO REVIEWER: I have applied all changes requested from my last rejection, and had a horizons help ticket justifying why some changes (such as linking games) could not or should not be made, and those justifications were read by the original reviewer and acknowledged. Changes I made include making the checkout clear as it's a scam, as it wasn't before. Also fixed a image not working cuz of caps in the checkout section </h3>
 
 <h2>PLEASE DM ME ON SLACK IF U HAVE ANYTHING U WANT ME TO CLARIFY BECAUSE OF THE VERY FUNNY AND NOT FUNNY TIMELINE I HAVE ON THIS PROJECT</h2>
 
